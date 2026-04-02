@@ -113,7 +113,7 @@ export const Footer = ({ totalNotes, onClearAll }) => {
             {/* Footer Bottom */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-4 text-xs text-primary-300">
               <p>© 2024-2026 Sticky Notes. Built with React & Tailwind CSS.</p>
-              <p>Version 1.0.0 • Made with ❤️</p>
+              <p>Version 1.0.0</p>
             </div>
           </div>
         </div>

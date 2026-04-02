@@ -74,7 +74,7 @@ export const NoteCreator = ({ onAddNote }) => {
           <textarea
             value={content}
             onChange={(e) => setContent(e.target.value)}
-            placeholder="Take a note... or use voice input 🎤"
+            placeholder="Take a note... or use voice input "
             className="w-full h-16 sm:h-20 md:h-24 text-xs sm:text-sm md:text-base text-primary-700 bg-transparent placeholder-primary-400 focus:outline-none resize-none transition-colors"
             maxLength={500}
           />
